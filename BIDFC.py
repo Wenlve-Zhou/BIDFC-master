@@ -77,7 +77,6 @@ parser.add_argument('-ema',default=0.999,type=int,
                     help='A parameter for the BIDFC model update')
 
 
-
 def main():
     args = parser.parse_args()
     best_acc = 0.0
